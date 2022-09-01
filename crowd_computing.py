@@ -3,7 +3,7 @@
 import statistics
 from statistics import mean
 import matplotlib.pyplot as plt
-estimates=[30,45,46,60,50,56,57,48,29,10,9,30,29,0,78,90,39,29,40,38,58,60,80,89,30,28,19,20,30,40,]
+estimates=[30,45,46,60,50,56,57,48,29,10,9,30,29,0,78,90,39,29,40,38,58,60,80,89,30,28,19,20,30,40]
 y = []
 estimates.sort()
 tv= int(len(estimates) *0.1)
@@ -30,7 +30,7 @@ plt.plot([45],[5],'g^')
 
 from statistics import mean
 from scipy import stats
-estimates=[30,45,46,60,50,56,57,48,29,10,9,30,29,0,78,90,39,29,40,38,58,60,80,89,30,28,19,20,30,40,]
+estimates=[30,45,46,60,50,56,57,48,29,10,9,30,29,0,78,90,39,29,40,38,58,60,80,89,30,28,19,20,30,40]
 estimates.sort()
 #for trim mean
 m= stats.trim_mean(estimates,0.1)
